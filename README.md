@@ -1,15 +1,17 @@
 # Advent of Code 2024 in SQL
 
-This is a pure SQL implementation of the Advent of Code 2024.
+
+
+This is a pure SQL implementation of the [Advent of Code 2024](https://adventofcode.com/2024).
 All queries were tested on [Umbra](https://www.umbra-db.com) v0.2-957,
 [PostgreSQL](https://www.postgresql.org/) 17.2, and [DuckDB](https://duckdb.org/) v1.1.3.
 
 ## Usage
 
 Each day is a self-contained SQL file that contains both the puzzle input and the
-query text to compute the answert. The files currently hold the (small) reference
+query text to compute the answer. The files currently hold the (small) reference
 inputs provided by the puzzles. To solve the real challenge, replace the reference
-input with the inidividual puzeel input. For example the query from day 11 is:
+input with the individual puzeel input. For example, the query from day 11 is:
 
 ```sql
 with recursive aoc10_input(i) as (select '
